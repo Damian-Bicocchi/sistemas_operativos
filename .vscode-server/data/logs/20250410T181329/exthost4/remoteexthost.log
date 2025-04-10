@@ -2788,3 +2788,271 @@
 	at async Object.utimes (node:internal/fs/promises:1134:10)
 	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
 2025-04-10 19:26:50.325 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:51.519 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:51.519 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:52.550 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:52.551 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:53.610 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:53.610 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:54.618 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:54.618 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:55.619 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:55.619 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:57.700 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:57.700 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:58.722 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:58.722 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:26:59.735 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:26:59.735 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:00.737 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:00.737 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:01.786 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:01.786 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:02.789 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:02.789 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:04.213 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:04.213 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:05.213 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:05.213 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:06.227 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:06.227 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:07.228 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:07.228 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:08.236 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:08.236 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:09.332 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:09.332 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:11.366 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:11.366 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:13.217 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:13.218 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:14.257 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:14.257 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:15.276 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:15.276 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:16.542 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:16.542 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:17.713 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:17.713 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:18.914 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:18.914 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:19.921 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:19.921 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:21.018 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:21.018 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:22.056 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:22.056 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:23.142 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:23.142 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:24.260 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:24.260 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:25.260 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:25.260 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:26.266 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:26.266 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:27.417 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:27.417 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:28.946 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:28.946 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:29.946 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:29.946 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:31.704 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:31.704 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:33.100 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:33.100 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:34.334 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:34.334 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:35.442 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:35.442 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:36.873 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:36.873 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:38.657 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:38.657 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:40.815 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:40.815 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:42.072 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:42.072 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:43.406 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:43.406 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:44.742 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:44.742 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:46.569 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:46.569 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:47.688 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:47.688 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:49.334 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:49.334 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:51.181 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:51.181 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:52.555 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:52.555 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:53.670 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:53.670 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:54.787 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:54.787 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:55.788 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:55.788 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:57.565 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:57.565 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:58.663 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:58.663 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:27:59.670 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:27:59.670 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:00.671 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:00.672 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:01.673 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:01.673 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:02.683 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:02.683 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:03.714 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:03.714 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:04.721 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:04.721 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:05.730 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:05.730 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:06.753 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:06.753 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:07.821 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:07.821 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:09.334 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:09.334 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:10.950 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:10.950 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:11.958 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:11.958 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
+2025-04-10 19:28:12.964 [error] Error: EPERM: operation not permitted, utime '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock'
+	at async Object.utimes (node:internal/fs/promises:1134:10)
+	at async file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5207
+2025-04-10 19:28:12.964 [info] Lock '/home/so/.vscode-server/data/User/workspaceStorage/3a43aa3b98666acf6c335a15f445f526/vscode.lock': Could not update mtime.
