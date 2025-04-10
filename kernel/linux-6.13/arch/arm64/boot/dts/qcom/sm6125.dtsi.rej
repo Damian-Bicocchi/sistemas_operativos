@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/sm6125.dtsi
++++ arch/arm64/boot/dts/qcom/sm6125.dtsi
+@@ -28,7 +28,7 @@ xo_board: xo-board {
+ 		sleep_clk: sleep-clk {
+ 			compatible = "fixed-clock";
+ 			#clock-cells = <0>;
+-			clock-frequency = <32000>;
++			clock-frequency = <32764>;
+ 			clock-output-names = "sleep_clk";
+ 		};
+ 	};

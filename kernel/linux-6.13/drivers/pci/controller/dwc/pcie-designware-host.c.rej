@@ -1,0 +1,10 @@
+--- drivers/pci/controller/dwc/pcie-designware-host.c
++++ drivers/pci/controller/dwc/pcie-designware-host.c
+@@ -946,6 +946,7 @@ int dw_pcie_suspend_noirq(struct dw_pcie *pci)
+ 		return ret;
+ 	}
+ 
++	dw_pcie_stop_link(pci);
+ 	if (pci->pp.ops->deinit)
+ 		pci->pp.ops->deinit(&pci->pp);
+ 

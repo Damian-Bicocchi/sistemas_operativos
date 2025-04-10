@@ -1,0 +1,14 @@
+--- arch/arm64/boot/dts/mediatek/mt8183-kukui.dtsi
++++ arch/arm64/boot/dts/mediatek/mt8183-kukui.dtsi
+@@ -269,11 +269,6 @@ dsi_out: endpoint {
+ 	};
+ };
+ 
+-&dpi0 {
+-	/* TODO Re-enable after DP to Type-C port muxing can be described */
+-	status = "disabled";
+-};
+-
+ &gic {
+ 	mediatek,broken-save-restore-fw;
+ };

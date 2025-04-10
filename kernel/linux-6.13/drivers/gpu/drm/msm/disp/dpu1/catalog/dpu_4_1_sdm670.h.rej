@@ -1,0 +1,15 @@
+--- drivers/gpu/drm/msm/disp/dpu1/catalog/dpu_4_1_sdm670.h
++++ drivers/gpu/drm/msm/disp/dpu1/catalog/dpu_4_1_sdm670.h
+@@ -136,8 +184,10 @@ const struct dpu_mdss_cfg dpu_sdm670_cfg = {
+ 	.ctl = sdm845_ctl,
+ 	.sspp_count = ARRAY_SIZE(sdm670_sspp),
+ 	.sspp = sdm670_sspp,
+-	.mixer_count = ARRAY_SIZE(sdm845_lm),
+-	.mixer = sdm845_lm,
++	.mixer_count = ARRAY_SIZE(sdm670_lm),
++	.mixer = sdm670_lm,
++	.dspp_count = ARRAY_SIZE(sdm670_dspp),
++	.dspp = sdm670_dspp,
+ 	.pingpong_count = ARRAY_SIZE(sdm845_pp),
+ 	.pingpong = sdm845_pp,
+ 	.dsc_count = ARRAY_SIZE(sdm670_dsc),

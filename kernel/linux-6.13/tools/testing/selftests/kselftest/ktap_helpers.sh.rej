@@ -1,0 +1,11 @@
+--- tools/testing/selftests/kselftest/ktap_helpers.sh
++++ tools/testing/selftests/kselftest/ktap_helpers.sh
+@@ -40,7 +40,7 @@ ktap_skip_all() {
+ __ktap_test() {
+ 	result="$1"
+ 	description="$2"
+-	directive="$3" # optional
++	directive="${3:-}" # optional
+ 
+ 	local directive_str=
+ 	[ ! -z "$directive" ] && directive_str="# $directive"

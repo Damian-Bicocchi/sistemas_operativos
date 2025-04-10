@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/qcs8550-aim300.dtsi
++++ arch/arm64/boot/dts/qcom/qcs8550-aim300.dtsi
+@@ -367,7 +367,7 @@ &pm8550b_eusb2_repeater {
+ };
+ 
+ &sleep_clk {
+-	clock-frequency = <32000>;
++	clock-frequency = <32764>;
+ };
+ 
+ &ufs_mem_hc {

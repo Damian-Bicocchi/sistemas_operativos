@@ -1,0 +1,10 @@
+--- sound/soc/intel/avs/skl.c
++++ sound/soc/intel/avs/skl.c
+@@ -12,6 +12,7 @@
+ #include "avs.h"
+ #include "cldma.h"
+ #include "messages.h"
++#include "registers.h"
+ 
+ void avs_skl_ipc_interrupt(struct avs_dev *adev)
+ {

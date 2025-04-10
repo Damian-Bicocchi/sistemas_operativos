@@ -1,0 +1,10 @@
+--- drivers/gpu/drm/nouveau/Kconfig
++++ drivers/gpu/drm/nouveau/Kconfig
+@@ -4,6 +4,7 @@ config DRM_NOUVEAU
+ 	depends on DRM && PCI && MMU
+ 	select IOMMU_API
+ 	select FW_LOADER
++	select FW_CACHE if PM_SLEEP
+ 	select DRM_CLIENT_SELECTION
+ 	select DRM_DISPLAY_DP_HELPER
+ 	select DRM_DISPLAY_HDMI_HELPER

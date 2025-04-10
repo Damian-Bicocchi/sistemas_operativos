@@ -1,0 +1,11 @@
+--- arch/x86/events/amd/ibs.c
++++ arch/x86/events/amd/ibs.c
+@@ -1118,7 +1118,7 @@ static int perf_ibs_handle_irq(struct perf_ibs *perf_ibs, struct pt_regs *iregs)
+ 				.data = ibs_data.data,
+ 			},
+ 		};
+-		perf_sample_save_raw_data(&data, &raw);
++		perf_sample_save_raw_data(&data, event, &raw);
+ 	}
+ 
+ 	if (perf_ibs == &perf_ibs_op)

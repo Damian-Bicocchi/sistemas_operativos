@@ -1,0 +1,10 @@
+--- tools/testing/selftests/mm/mlock2.h
++++ tools/testing/selftests/mm/mlock2.h
+@@ -3,7 +3,6 @@
+ #include <errno.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <asm-generic/unistd.h>
+ 
+ static int mlock2_(void *start, size_t len, int flags)
+ {

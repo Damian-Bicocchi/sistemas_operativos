@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/sm4450.dtsi
++++ arch/arm64/boot/dts/qcom/sm4450.dtsi
+@@ -29,7 +29,7 @@ xo_board: xo-board {
+ 
+ 		sleep_clk: sleep-clk {
+ 			compatible = "fixed-clock";
+-			clock-frequency = <32000>;
++			clock-frequency = <32764>;
+ 			#clock-cells = <0>;
+ 		};
+ 

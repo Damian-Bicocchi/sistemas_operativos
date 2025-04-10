@@ -1,0 +1,11 @@
+--- samples/rust/rust_print_main.rs
++++ samples/rust/rust_print_main.rs
+@@ -83,7 +83,7 @@ fn drop(&mut self) {
+ }
+ 
+ mod trace {
+-    use core::ffi::c_int;
++    use kernel::ffi::c_int;
+ 
+     kernel::declare_trace! {
+         /// # Safety

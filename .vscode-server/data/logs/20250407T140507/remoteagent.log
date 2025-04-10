@@ -1,0 +1,38 @@
+2025-04-07 14:05:07.192 [info] 
+
+
+
+
+2025-04-07 14:05:07.201 [info] Extension host agent started.
+2025-04-07 14:05:07.247 [error] [<unknown>][853a3978][ExtensionHostConnection] Unknown reconnection token (never seen).
+2025-04-07 14:05:07.249 [error] [<unknown>][e69f8526][ManagementConnection] Unknown reconnection token (never seen).
+2025-04-07 14:05:54.846 [info] [<unknown>][feec5fc4][ManagementConnection] New connection established.
+2025-04-07 14:05:54.848 [info] [<unknown>][4d69b5ec][ExtensionHostConnection] New connection established.
+2025-04-07 14:05:54.851 [info] [<unknown>][4d69b5ec][ExtensionHostConnection] <833> Launched Extension Host Process.
+2025-04-07 14:10:07.202 [info] New EH opened, aborting shutdown
+2025-04-07 14:10:07.205 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2025-04-07 15:46:47.149 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 19:03:51.322 [info] [<unknown>][f34ffc28][ExtensionHostConnection] New connection established.
+2025-04-07 19:03:51.328 [info] [<unknown>][f34ffc28][ExtensionHostConnection] <1763> Launched Extension Host Process.
+2025-04-07 19:03:51.330 [info] [<unknown>][4ea1277c][ManagementConnection] New connection established.
+2025-04-07 19:04:11.418 [error] [network] #3: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN az764295.vo.msecnd.net
+2025-04-07 19:11:32.752 [info] [<unknown>][4ea1277c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-07 19:11:39.296 [info] [<unknown>][35c62a44][ManagementConnection] New connection established.
+2025-04-07 19:11:39.302 [info] [<unknown>][0f76685d][ExtensionHostConnection] New connection established.
+2025-04-07 19:11:39.310 [info] [<unknown>][0f76685d][ExtensionHostConnection] <6195> Launched Extension Host Process.
+2025-04-07 19:11:52.903 [info] [<unknown>][f34ffc28][ExtensionHostConnection] <1763> Extension Host Process exited with code: 0, signal: null.
+2025-04-07 19:11:59.400 [error] [network] #4: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN az764295.vo.msecnd.net
+2025-04-07 19:16:23.245 [info] [<unknown>][feec5fc4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-07 20:06:37.258 [warning] [File Watcher ('parcel')] started ignoring events due to too many file change events at once (incoming: 36997, most recent change: /home/so/kernel/linux-6.13/..checked-atomic-arch-fallback.h.cmd). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+2025-04-07 20:06:37.340 [warning] [File Watcher ('parcel')] started ignoring events due to too many file change events at once (incoming: 37020, most recent change: /home/so/kernel/linux-6.13/..checked-atomic-arch-fallback.h.cmd). Use 'files.watcherExclude' setting to exclude folders with lots of changing files (e.g. compilation output).
+2025-04-07 20:07:40.306 [info] [<unknown>][35c62a44][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-07 20:07:40.613 [info] [<unknown>][0f76685d][ExtensionHostConnection] <6195> Extension Host Process exited with code: 0, signal: null.
+2025-04-07 20:07:57.707 [info] [<unknown>][feec5fc4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-07 20:07:57.708 [info] [<unknown>][19256876][ManagementConnection] New connection established.
+2025-04-07 20:07:57.714 [info] [<unknown>][c4585626][ExtensionHostConnection] New connection established.
+2025-04-07 20:07:57.726 [info] [<unknown>][c4585626][ExtensionHostConnection] <65461> Launched Extension Host Process.
+2025-04-07 20:07:57.802 [error] [network] #5: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN az764295.vo.msecnd.net
+2025-04-07 20:12:57.972 [info] [<unknown>][feec5fc4][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-04-07 20:12:58.807 [info] [<unknown>][4d69b5ec][ExtensionHostConnection] <833> Extension Host Process exited with code: 0, signal: null.

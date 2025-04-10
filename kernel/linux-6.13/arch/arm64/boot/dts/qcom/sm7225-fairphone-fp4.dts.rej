@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/sm7225-fairphone-fp4.dts
++++ arch/arm64/boot/dts/qcom/sm7225-fairphone-fp4.dts
+@@ -32,7 +32,7 @@ / {
+ 	chassis-type = "handset";
+ 
+ 	/* required for bootloader to select correct board */
+-	qcom,msm-id = <434 0x10000>, <459 0x10000>;
++	qcom,msm-id = <459 0x10000>;
+ 	qcom,board-id = <8 32>;
+ 
+ 	aliases {

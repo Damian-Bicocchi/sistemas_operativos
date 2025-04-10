@@ -1,0 +1,12 @@
+--- fs/ntfs3/inode.c
++++ fs/ntfs3/inode.c
+@@ -410,6 +410,9 @@ static struct inode *ntfs_read_mft(struct inode *inode,
+ 	if (!std5)
+ 		goto out;
+ 
++	if (is_bad_inode(inode))
++		goto out;
++
+ 	if (!is_match && name) {
+ 		err = -ENOENT;
+ 		goto out;

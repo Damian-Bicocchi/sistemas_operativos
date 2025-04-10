@@ -1,0 +1,12 @@
+--- arch/arm64/boot/dts/rockchip/rk3328-orangepi-r1-plus-lts.dts
++++ arch/arm64/boot/dts/rockchip/rk3328-orangepi-r1-plus-lts.dts
+@@ -17,8 +17,7 @@ / {
+ 
+ &gmac2io {
+ 	phy-handle = <&yt8531c>;
+-	tx_delay = <0x19>;
+-	rx_delay = <0x05>;
++	phy-mode = "rgmii-id";
+ 	status = "okay";
+ 
+ 	mdio {

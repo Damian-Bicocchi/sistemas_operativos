@@ -1,0 +1,26 @@
+--- arch/arm64/boot/dts/mediatek/mt8192-asurada.dtsi
++++ arch/arm64/boot/dts/mediatek/mt8192-asurada.dtsi
+@@ -1418,7 +1418,6 @@ mt6315_6: pmic@6 {
+ 
+ 		regulators {
+ 			mt6315_6_vbuck1: vbuck1 {
+-				regulator-compatible = "vbuck1";
+ 				regulator-name = "Vbcpu";
+ 				regulator-min-microvolt = <400000>;
+ 				regulator-max-microvolt = <1193750>;
+@@ -1428,7 +1427,6 @@ mt6315_6_vbuck1: vbuck1 {
+ 			};
+ 
+ 			mt6315_6_vbuck3: vbuck3 {
+-				regulator-compatible = "vbuck3";
+ 				regulator-name = "Vlcpu";
+ 				regulator-min-microvolt = <400000>;
+ 				regulator-max-microvolt = <1193750>;
+@@ -1445,7 +1443,6 @@ mt6315_7: pmic@7 {
+ 
+ 		regulators {
+ 			mt6315_7_vbuck1: vbuck1 {
+-				regulator-compatible = "vbuck1";
+ 				regulator-name = "Vgpu";
+ 				regulator-min-microvolt = <400000>;
+ 				regulator-max-microvolt = <800000>;

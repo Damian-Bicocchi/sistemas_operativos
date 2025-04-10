@@ -1,0 +1,19 @@
+--- arch/arm64/boot/dts/renesas/rzg3s-smarc.dtsi
++++ arch/arm64/boot/dts/renesas/rzg3s-smarc.dtsi
+@@ -12,10 +12,15 @@
+ / {
+ 	aliases {
+ 		i2c0 = &i2c0;
+-		serial0 = &scif0;
++		serial3 = &scif0;
+ 		mmc1 = &sdhi1;
+ 	};
+ 
++	chosen {
++		bootargs = "ignore_loglevel";
++		stdout-path = "serial3:115200n8";
++	};
++
+ 	keys {
+ 		compatible = "gpio-keys";
+ 

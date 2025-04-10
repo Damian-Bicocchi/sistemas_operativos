@@ -1,0 +1,11 @@
+--- tools/testing/selftests/net/mptcp/mptcp_connect.c
++++ tools/testing/selftests/net/mptcp/mptcp_connect.c
+@@ -1302,7 +1302,7 @@ int main_loop(void)
+ 		return ret;
+ 
+ 	if (cfg_truncate > 0) {
+-		xdisconnect(fd);
++		shutdown(fd, SHUT_WR);
+ 	} else if (--cfg_repeat > 0) {
+ 		xdisconnect(fd);
+ 

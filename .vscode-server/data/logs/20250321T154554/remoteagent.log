@@ -1,0 +1,27 @@
+2025-03-21 15:45:54.558 [info] 
+
+
+
+
+2025-03-21 15:45:54.558 [info] Extension host agent started.
+2025-03-21 15:45:54.572 [info] [<unknown>][21c634f7][ManagementConnection] New connection established.
+2025-03-21 15:45:54.575 [info] [<unknown>][1aae89ba][ExtensionHostConnection] New connection established.
+2025-03-21 15:45:54.620 [info] [<unknown>][1aae89ba][ExtensionHostConnection] <818> Launched Extension Host Process.
+2025-03-21 15:50:54.517 [info] New EH opened, aborting shutdown
+2025-03-21 15:52:54.494 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 15:57:12.754 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 15:58:49.554 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 15:59:51.170 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:01:42.152 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:33:36.389 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:33:54.325 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:34:34.579 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:34:42.064 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:35:34.581 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:35:39.584 [error] No ptyHost heartbeat after 12 seconds
+2025-03-21 16:36:39.583 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:36:45.587 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:40:20.121 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:40:36.535 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:41:06.336 [warning] No ptyHost heartbeat after 6 seconds
+2025-03-21 16:41:37.629 [warning] No ptyHost heartbeat after 6 seconds

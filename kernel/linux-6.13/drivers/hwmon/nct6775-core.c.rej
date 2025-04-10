@@ -1,0 +1,22 @@
+--- drivers/hwmon/nct6775-core.c
++++ drivers/hwmon/nct6775-core.c
+@@ -42,6 +42,9 @@
+ 
+ #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
+ 
++#undef DEFAULT_SYMBOL_NAMESPACE
++#define DEFAULT_SYMBOL_NAMESPACE "HWMON_NCT6775"
++
+ #include <linux/module.h>
+ #include <linux/init.h>
+ #include <linux/slab.h>
+@@ -56,9 +59,6 @@
+ #include "lm75.h"
+ #include "nct6775.h"
+ 
+-#undef DEFAULT_SYMBOL_NAMESPACE
+-#define DEFAULT_SYMBOL_NAMESPACE "HWMON_NCT6775"
+-
+ #define USE_ALTERNATE
+ 
+ /* used to set data->name = nct6775_device_names[data->sio_kind] */

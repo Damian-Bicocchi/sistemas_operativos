@@ -1,0 +1,21 @@
+--- drivers/i2c/busses/i2c-designware-slave.c
++++ drivers/i2c/busses/i2c-designware-slave.c
+@@ -6,6 +6,9 @@
+  *
+  * Copyright (C) 2016 Synopsys Inc.
+  */
++
++#define DEFAULT_SYMBOL_NAMESPACE	"I2C_DW"
++
+ #include <linux/delay.h>
+ #include <linux/err.h>
+ #include <linux/errno.h>
+@@ -16,8 +19,6 @@
+ #include <linux/pm_runtime.h>
+ #include <linux/regmap.h>
+ 
+-#define DEFAULT_SYMBOL_NAMESPACE	"I2C_DW"
+-
+ #include "i2c-designware-core.h"
+ 
+ static void i2c_dw_configure_fifo_slave(struct dw_i2c_dev *dev)

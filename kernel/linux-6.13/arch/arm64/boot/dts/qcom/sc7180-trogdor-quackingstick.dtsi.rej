@@ -1,0 +1,10 @@
+--- arch/arm64/boot/dts/qcom/sc7180-trogdor-quackingstick.dtsi
++++ arch/arm64/boot/dts/qcom/sc7180-trogdor-quackingstick.dtsi
+@@ -78,6 +78,7 @@ panel: panel@0 {
+ 		pinctrl-names = "default";
+ 		pinctrl-0 = <&lcd_rst>;
+ 		avdd-supply = <&ppvar_lcd>;
++		avee-supply = <&ppvar_lcd>;
+ 		pp1800-supply = <&v1p8_disp>;
+ 		pp3300-supply = <&pp3300_dx_edp>;
+ 		backlight = <&backlight>;

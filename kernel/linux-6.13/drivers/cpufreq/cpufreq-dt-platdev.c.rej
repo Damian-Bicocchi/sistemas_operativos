@@ -1,0 +1,8 @@
+--- drivers/cpufreq/cpufreq-dt-platdev.c
++++ drivers/cpufreq/cpufreq-dt-platdev.c
+@@ -235,5 +235,3 @@ static int __init cpufreq_dt_platdev_init(void)
+ 			       sizeof(struct cpufreq_dt_platform_data)));
+ }
+ core_initcall(cpufreq_dt_platdev_init);
+-MODULE_DESCRIPTION("Generic DT based cpufreq platdev driver");
+-MODULE_LICENSE("GPL");

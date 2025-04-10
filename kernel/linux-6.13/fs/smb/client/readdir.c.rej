@@ -1,0 +1,11 @@
+--- fs/smb/client/readdir.c
++++ fs/smb/client/readdir.c
+@@ -413,7 +413,7 @@ _initiate_cifs_search(const unsigned int xid, struct file *file,
+ 		cifsFile->invalidHandle = false;
+ 	} else if ((rc == -EOPNOTSUPP) &&
+ 		   (cifs_sb->mnt_cifs_flags & CIFS_MOUNT_SERVER_INUM)) {
+-		cifs_sb->mnt_cifs_flags &= ~CIFS_MOUNT_SERVER_INUM;
++		cifs_autodisable_serverino(cifs_sb);
+ 		goto ffirst_retry;
+ 	}
+ error_exit:

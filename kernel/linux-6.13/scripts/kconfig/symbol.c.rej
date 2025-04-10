@@ -1,0 +1,10 @@
+--- scripts/kconfig/symbol.c
++++ scripts/kconfig/symbol.c
+@@ -388,6 +388,7 @@ static void sym_warn_unmet_dep(const struct symbol *sym)
+ 			       "  Selected by [m]:\n");
+ 
+ 	fputs(str_get(&gs), stderr);
++	str_free(&gs);
+ 	sym_warnings++;
+ }
+ 

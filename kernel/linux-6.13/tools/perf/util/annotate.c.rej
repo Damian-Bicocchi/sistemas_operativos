@@ -1,0 +1,44 @@
+--- tools/perf/util/annotate.c
++++ tools/perf/util/annotate.c
+@@ -2168,11 +2219,10 @@ static int annotation__config(const char *var, const char *value, void *data)
+ 		else if (opt->offset_level < ANNOTATION__MIN_OFFSET_LEVEL)
+ 			opt->offset_level = ANNOTATION__MIN_OFFSET_LEVEL;
+ 	} else if (!strcmp(var, "annotate.disassemblers")) {
+-		opt->disassemblers_str = strdup(value);
+-		if (!opt->disassemblers_str) {
+-			pr_err("Not enough memory for annotate.disassemblers\n");
+-			return -1;
+-		}
++		int err = annotation_options__add_disassemblers_str(opt, value);
++
++		if (err)
++			return err;
+ 	} else if (!strcmp(var, "annotate.hide_src_code")) {
+ 		opt->hide_src_code = perf_config_bool("hide_src_code", value);
+ 	} else if (!strcmp(var, "annotate.jump_arrows")) {
+@@ -2238,9 +2288,25 @@ void annotation_options__exit(void)
+ 	zfree(&annotate_opts.objdump_path);
+ }
+ 
++static void annotation_options__default_init_disassemblers(struct annotation_options *options)
++{
++	if (options->disassemblers[0] != PERF_DISASM_UNKNOWN) {
++		/* Already initialized. */
++		return;
++	}
++#ifdef HAVE_LIBLLVM_SUPPORT
++	annotation_options__add_disassembler(options, PERF_DISASM_LLVM);
++#endif
++#ifdef HAVE_LIBCAPSTONE_SUPPORT
++	annotation_options__add_disassembler(options, PERF_DISASM_CAPSTONE);
++#endif
++	annotation_options__add_disassembler(options, PERF_DISASM_OBJDUMP);
++}
++
+ void annotation_config__init(void)
+ {
+ 	perf_config(annotation__config, &annotate_opts);
++	annotation_options__default_init_disassemblers(&annotate_opts);
+ }
+ 
+ static unsigned int parse_percent_type(char *str1, char *str2)

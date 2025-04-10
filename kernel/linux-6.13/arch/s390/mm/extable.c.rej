@@ -1,0 +1,11 @@
+--- arch/s390/mm/extable.c
++++ arch/s390/mm/extable.c
+@@ -106,6 +113,8 @@ bool fixup_exception(struct pt_regs *regs)
+ 		return ex_handler_ua_load_reg(ex, true, regs);
+ 	case EX_TYPE_ZEROPAD:
+ 		return ex_handler_zeropad(ex, regs);
++	case EX_TYPE_FPC:
++		return ex_handler_fpc(ex, regs);
+ 	}
+ 	panic("invalid exception table entry");
+ }

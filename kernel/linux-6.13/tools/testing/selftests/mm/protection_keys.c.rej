@@ -1,0 +1,11 @@
+--- tools/testing/selftests/mm/protection_keys.c
++++ tools/testing/selftests/mm/protection_keys.c
+@@ -42,7 +42,7 @@
+ #include <sys/wait.h>
+ #include <sys/stat.h>
+ #include <fcntl.h>
+-#include <asm-generic/unistd.h>
++#include <unistd.h>
+ #include <sys/ptrace.h>
+ #include <setjmp.h>
+ 

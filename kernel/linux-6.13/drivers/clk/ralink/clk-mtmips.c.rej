@@ -1,0 +1,10 @@
+--- drivers/clk/ralink/clk-mtmips.c
++++ drivers/clk/ralink/clk-mtmips.c
+@@ -266,7 +266,6 @@ static int mtmips_register_pherip_clocks(struct device_node *np,
+ 	}
+ 
+ static struct mtmips_clk_fixed rt3883_fixed_clocks[] = {
+-	CLK_FIXED("xtal", NULL, 40000000),
+ 	CLK_FIXED("periph", "xtal", 40000000)
+ };
+ 

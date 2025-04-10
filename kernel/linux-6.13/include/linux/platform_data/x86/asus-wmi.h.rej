@@ -1,0 +1,14 @@
+--- include/linux/platform_data/x86/asus-wmi.h
++++ include/linux/platform_data/x86/asus-wmi.h
+@@ -184,6 +184,11 @@ static const struct dmi_system_id asus_use_hid_led_dmi_ids[] = {
+ 			DMI_MATCH(DMI_PRODUCT_FAMILY, "ROG Flow"),
+ 		},
+ 	},
++	{
++		.matches = {
++			DMI_MATCH(DMI_PRODUCT_FAMILY, "ProArt P16"),
++		},
++	},
+ 	{
+ 		.matches = {
+ 			DMI_MATCH(DMI_BOARD_NAME, "GA403U"),

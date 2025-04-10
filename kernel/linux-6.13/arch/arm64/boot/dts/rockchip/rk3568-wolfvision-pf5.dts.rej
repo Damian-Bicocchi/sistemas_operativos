@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/rockchip/rk3568-wolfvision-pf5.dts
++++ arch/arm64/boot/dts/rockchip/rk3568-wolfvision-pf5.dts
+@@ -53,7 +53,7 @@ hdmi_tx_5v: regulator-hdmi-tx-5v {
+ 
+ 	pdm_codec: pdm-codec {
+ 		compatible = "dmic-codec";
+-		num-channels = <1>;
++		num-channels = <2>;
+ 		#sound-dai-cells = <0>;
+ 	};
+ 

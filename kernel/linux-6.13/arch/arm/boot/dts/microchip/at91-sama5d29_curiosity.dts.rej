@@ -1,0 +1,10 @@
+--- arch/arm/boot/dts/microchip/at91-sama5d29_curiosity.dts
++++ arch/arm/boot/dts/microchip/at91-sama5d29_curiosity.dts
+@@ -514,6 +514,7 @@ kernel@200000 {
+ 
+ &sdmmc0 {
+ 	bus-width = <4>;
++	no-1-8-v;
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&pinctrl_sdmmc0_default>;
+ 	disable-wp;

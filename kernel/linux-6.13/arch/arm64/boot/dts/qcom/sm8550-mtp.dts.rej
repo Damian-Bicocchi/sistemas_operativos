@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/sm8550-mtp.dts
++++ arch/arm64/boot/dts/qcom/sm8550-mtp.dts
+@@ -825,7 +825,7 @@ &sdhc_2 {
+ };
+ 
+ &sleep_clk {
+-	clock-frequency = <32000>;
++	clock-frequency = <32764>;
+ };
+ 
+ &swr0 {

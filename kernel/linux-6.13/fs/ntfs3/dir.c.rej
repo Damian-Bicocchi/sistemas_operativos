@@ -1,0 +1,11 @@
+--- fs/ntfs3/dir.c
++++ fs/ntfs3/dir.c
+@@ -512,7 +512,7 @@ static int ntfs_readdir(struct file *file, struct dir_context *ctx)
+ 		ctx->pos = pos;
+ 	} else if (err < 0) {
+ 		if (err == -EINVAL)
+-			ntfs_inode_err(dir, "directory corrupted");
++			_ntfs_bad_inode(dir);
+ 		ctx->pos = eod;
+ 	}
+ 

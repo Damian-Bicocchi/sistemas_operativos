@@ -1,0 +1,10 @@
+2025-04-10 18:13:30.423 [info] Extension host with pid 789 started
+2025-04-10 18:13:30.594 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-10 18:13:30.595 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-04-10 18:13:30.760 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-04-10 18:13:30.760 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-04-10 18:13:30.969 [info] Eager extensions activated
+2025-04-10 18:13:30.969 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 18:13:30.969 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-10 18:13:44.762 [info] Extension host terminating: received terminate message from renderer
+2025-04-10 18:13:44.773 [info] Extension host with pid 789 exiting with code 0

@@ -1,0 +1,26 @@
+--- arch/arm/boot/dts/ti/omap/omap3-gta04.dtsi
++++ arch/arm/boot/dts/ti/omap/omap3-gta04.dtsi
+@@ -446,6 +446,7 @@ &omap3_pmx_core2 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <
+ 			&hsusb2_2_pins
++			&mcspi3hog_pins
+ 	>;
+ 
+ 	hsusb2_2_pins: hsusb2-2-pins {
+@@ -459,6 +460,15 @@ OMAP3630_CORE2_IOPAD(0x25fa, PIN_INPUT_PULLDOWN | MUX_MODE3)	/* etk_d15.hsusb2_d
+ 		>;
+ 	};
+ 
++	mcspi3hog_pins: mcspi3hog-pins {
++		pinctrl-single,pins = <
++			OMAP3630_CORE2_IOPAD(0x25dc, PIN_OUTPUT_PULLDOWN | MUX_MODE4)	/* etk_d0 */
++			OMAP3630_CORE2_IOPAD(0x25de, PIN_OUTPUT_PULLDOWN | MUX_MODE4)	/* etk_d1 */
++			OMAP3630_CORE2_IOPAD(0x25e0, PIN_OUTPUT_PULLDOWN | MUX_MODE4)	/* etk_d2 */
++			OMAP3630_CORE2_IOPAD(0x25e2, PIN_OUTPUT_PULLDOWN | MUX_MODE4)	/* etk_d3 */
++		>;
++	};
++
+ 	spi_gpio_pins: spi-gpio-pinmux-pins {
+ 		pinctrl-single,pins = <
+ 			OMAP3630_CORE2_IOPAD(0x25d8, PIN_OUTPUT | MUX_MODE4) /* clk */

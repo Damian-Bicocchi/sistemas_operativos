@@ -1,0 +1,15 @@
+--- arch/arm64/boot/dts/rockchip/px30-ringneck.dtsi
++++ arch/arm64/boot/dts/rockchip/px30-ringneck.dtsi
+@@ -396,6 +396,12 @@ &u2phy_host {
+ 	status = "okay";
+ };
+ 
++&uart5 {
++	/delete-property/ dmas;
++	/delete-property/ dma-names;
++	pinctrl-0 = <&uart5_xfer>;
++};
++
+ /* Mule UCAN */
+ &usb_host0_ehci {
+ 	status = "okay";

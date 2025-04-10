@@ -1,0 +1,118 @@
+--- arch/arm64/boot/dts/qcom/sa8775p.dtsi
++++ arch/arm64/boot/dts/qcom/sa8775p.dtsi
+@@ -44,6 +44,8 @@ cpu0: cpu@0 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x0>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd0>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 0>;
+ 			next-level-cache = <&l2_0>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -66,6 +68,8 @@ cpu1: cpu@100 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x100>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd1>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 0>;
+ 			next-level-cache = <&l2_1>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -83,6 +87,8 @@ cpu2: cpu@200 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x200>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd2>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 0>;
+ 			next-level-cache = <&l2_2>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -100,6 +106,8 @@ cpu3: cpu@300 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x300>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd3>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 0>;
+ 			next-level-cache = <&l2_3>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -117,6 +125,8 @@ cpu4: cpu@10000 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x10000>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd4>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 1>;
+ 			next-level-cache = <&l2_4>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -140,6 +150,8 @@ cpu5: cpu@10100 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x10100>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd5>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 1>;
+ 			next-level-cache = <&l2_5>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -157,6 +169,8 @@ cpu6: cpu@10200 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x10200>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd6>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 1>;
+ 			next-level-cache = <&l2_6>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -174,6 +188,8 @@ cpu7: cpu@10300 {
+ 			compatible = "qcom,kryo";
+ 			reg = <0x0 0x10300>;
+ 			enable-method = "psci";
++			power-domains = <&cpu_pd7>;
++			power-domain-names = "psci";
+ 			qcom,freq-domain = <&cpufreq_hw 1>;
+ 			next-level-cache = <&l2_7>;
+ 			capacity-dmips-mhz = <1024>;
+@@ -854,8 +870,8 @@ ipcc: mailbox@408000 {
+ 			#mbox-cells = <2>;
+ 		};
+ 
+-		gpi_dma2: qcom,gpi-dma@800000  {
+-			compatible = "qcom,sm6350-gpi-dma";
++		gpi_dma2: dma-controller@800000  {
++			compatible = "qcom,sa8775p-gpi-dma", "qcom,sm6350-gpi-dma";
+ 			reg = <0x0 0x00800000 0x0 0x60000>;
+ 			#dma-cells = <3>;
+ 			interrupts = <GIC_SPI 588 IRQ_TYPE_LEVEL_HIGH>,
+@@ -1345,8 +1361,8 @@ &clk_virt SLAVE_QUP_CORE_2 QCOM_ICC_TAG_ALWAYS>,
+ 
+ 		};
+ 
+-		gpi_dma0: qcom,gpi-dma@900000  {
+-			compatible = "qcom,sm6350-gpi-dma";
++		gpi_dma0: dma-controller@900000  {
++			compatible = "qcom,sa8775p-gpi-dma", "qcom,sm6350-gpi-dma";
+ 			reg = <0x0 0x00900000 0x0 0x60000>;
+ 			#dma-cells = <3>;
+ 			interrupts = <GIC_SPI 244 IRQ_TYPE_LEVEL_HIGH>,
+@@ -1770,8 +1786,8 @@ &clk_virt SLAVE_QUP_CORE_0 QCOM_ICC_TAG_ALWAYS>,
+ 			};
+ 		};
+ 
+-		gpi_dma1: qcom,gpi-dma@a00000  {
+-			compatible = "qcom,sm6350-gpi-dma";
++		gpi_dma1: dma-controller@a00000  {
++			compatible = "qcom,sa8775p-gpi-dma", "qcom,sm6350-gpi-dma";
+ 			reg = <0x0 0x00a00000 0x0 0x60000>;
+ 			#dma-cells = <3>;
+ 			interrupts = <GIC_SPI 279 IRQ_TYPE_LEVEL_HIGH>,
+@@ -2225,8 +2241,8 @@ &config_noc SLAVE_QUP_1 QCOM_ICC_TAG_ALWAYS>,
+ 			};
+ 		};
+ 
+-		gpi_dma3: qcom,gpi-dma@b00000  {
+-			compatible = "qcom,sm6350-gpi-dma";
++		gpi_dma3: dma-controller@b00000  {
++			compatible = "qcom,sa8775p-gpi-dma", "qcom,sm6350-gpi-dma";
+ 			reg = <0x0 0x00b00000 0x0 0x58000>;
+ 			#dma-cells = <3>;
+ 			interrupts = <GIC_SPI 368 IRQ_TYPE_LEVEL_HIGH>,

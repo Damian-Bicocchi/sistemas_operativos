@@ -1,0 +1,10 @@
+--- arch/arm/boot/dts/nxp/imx/imx7-tqma7.dtsi
++++ arch/arm/boot/dts/nxp/imx/imx7-tqma7.dtsi
+@@ -135,6 +135,7 @@ vgen6_reg: vldo4 {
+ 	lm75a: temperature-sensor@48 {
+ 		compatible = "national,lm75a";
+ 		reg = <0x48>;
++		vs-supply = <&vgen4_reg>;
+ 	};
+ 
+ 	/* NXP SE97BTP with temperature sensor + eeprom, TQMa7x 02xx */

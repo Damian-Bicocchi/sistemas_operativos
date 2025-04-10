@@ -1,0 +1,88 @@
+2025-04-10 18:13:29.790 [info] 
+
+
+
+
+2025-04-10 18:13:29.800 [info] Extension host agent started.
+2025-04-10 18:13:29.847 [info] [<unknown>][5bf80eb0][ExtensionHostConnection] New connection established.
+2025-04-10 18:13:29.851 [info] [<unknown>][116d1091][ManagementConnection] New connection established.
+2025-04-10 18:13:29.892 [info] [<unknown>][5bf80eb0][ExtensionHostConnection] <789> Launched Extension Host Process.
+2025-04-10 18:13:42.027 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:13:44.761 [info] [<unknown>][116d1091][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 18:13:44.784 [info] [<unknown>][5bf80eb0][ExtensionHostConnection] <789> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 18:13:44.785 [info] Cancelling previous shutdown timeout
+2025-04-10 18:13:44.785 [info] Last EH closed, waiting before shutting down
+2025-04-10 18:13:52.004 [info] [<unknown>][ddab9a9d][ManagementConnection] New connection established.
+2025-04-10 18:13:52.007 [info] [<unknown>][e67bd11e][ExtensionHostConnection] New connection established.
+2025-04-10 18:13:52.009 [info] [<unknown>][e67bd11e][ExtensionHostConnection] <889> Launched Extension Host Process.
+2025-04-10 18:13:54.302 [error] CodeExpectedError: Could not find pty 3 on pty host
+    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-10 18:14:00.034 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:14:06.451 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:14:11.153 [info] [<unknown>][ddab9a9d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 18:14:11.174 [info] [<unknown>][e67bd11e][ExtensionHostConnection] <889> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 18:14:11.174 [info] Cancelling previous shutdown timeout
+2025-04-10 18:14:11.174 [info] Last EH closed, waiting before shutting down
+2025-04-10 18:14:15.040 [info] [<unknown>][ea9b5c0f][ManagementConnection] New connection established.
+2025-04-10 18:14:15.042 [info] [<unknown>][f76d42fd][ExtensionHostConnection] New connection established.
+2025-04-10 18:14:15.045 [info] [<unknown>][f76d42fd][ExtensionHostConnection] <991> Launched Extension Host Process.
+2025-04-10 18:14:25.198 [info] [<unknown>][ea9b5c0f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 18:14:25.218 [info] [<unknown>][f76d42fd][ExtensionHostConnection] <991> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 18:14:25.219 [info] Cancelling previous shutdown timeout
+2025-04-10 18:14:25.219 [info] Last EH closed, waiting before shutting down
+2025-04-10 18:14:29.307 [info] [<unknown>][9f7cd968][ManagementConnection] New connection established.
+2025-04-10 18:14:29.310 [info] [<unknown>][1058562f][ExtensionHostConnection] New connection established.
+2025-04-10 18:14:29.312 [info] [<unknown>][1058562f][ExtensionHostConnection] <1080> Launched Extension Host Process.
+2025-04-10 18:14:31.702 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-10 18:14:38.762 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:15:48.776 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:15:56.303 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:16:25.598 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:16:34.298 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:16:34.300 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2025-04-10 18:16:39.299 [error] No ptyHost heartbeat after 12 seconds
+2025-04-10 18:17:07.423 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:17:23.422 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:17:29.297 [error] No ptyHost heartbeat after 12 seconds
+2025-04-10 18:17:39.296 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:18:12.244 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:18:55.969 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:19:25.221 [info] New EH opened, aborting shutdown
+2025-04-10 18:22:00.929 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:25:44.314 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:26:44.315 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:27:21.944 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:27:38.749 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:30:21.406 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:32:40.739 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:32:46.800 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:33:59.319 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:37:37.553 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 18:40:18.123 [warning] No ptyHost heartbeat after 6 seconds

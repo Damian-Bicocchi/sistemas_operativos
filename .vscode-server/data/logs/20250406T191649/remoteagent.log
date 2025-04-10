@@ -1,0 +1,258 @@
+2025-04-06 19:16:49.584 [info] 
+
+
+
+
+2025-04-06 19:16:49.584 [info] Extension host agent started.
+2025-04-06 19:16:49.596 [info] [<unknown>][09392256][ExtensionHostConnection] New connection established.
+2025-04-06 19:16:49.600 [info] [<unknown>][ce645c3f][ManagementConnection] New connection established.
+2025-04-06 19:16:49.644 [info] [<unknown>][09392256][ExtensionHostConnection] <748> Launched Extension Host Process.
+2025-04-06 19:17:07.839 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:17:24.269 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:17:40.598 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:18:02.341 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:20:40.966 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:21:50.964 [info] New EH opened, aborting shutdown
+2025-04-06 19:22:37.564 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:24:06.342 [info] [<unknown>][ce645c3f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-06 19:24:06.366 [info] [<unknown>][09392256][ExtensionHostConnection] <748> Extension Host Process exited with code: 0, signal: null.
+2025-04-06 19:24:06.366 [info] Last EH closed, waiting before shutting down
+2025-04-06 19:24:11.278 [info] [<unknown>][b5a04a07][ManagementConnection] New connection established.
+2025-04-06 19:24:11.280 [info] [<unknown>][55684ea4][ExtensionHostConnection] New connection established.
+2025-04-06 19:24:11.284 [info] [<unknown>][55684ea4][ExtensionHostConnection] <1756> Launched Extension Host Process.
+2025-04-06 19:27:41.278 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:27:41.281 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2025-04-06 19:28:05.403 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:28:32.749 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:29:06.369 [info] New EH opened, aborting shutdown
+2025-04-06 19:32:26.450 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:33:39.506 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:34:13.850 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:34:36.508 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:34:58.610 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:35:11.280 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:35:33.486 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:36:45.495 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:36:54.747 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:37:41.279 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:38:13.771 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:38:21.279 [error] No ptyHost heartbeat after 12 seconds
+2025-04-06 19:39:46.280 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:40:57.809 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:41:16.279 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:41:53.898 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:42:31.280 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:43:46.280 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:44:52.091 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:45:16.167 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:46:27.997 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:48:34.848 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:49:01.283 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:50:34.515 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:55:10.446 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:55:28.243 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:56:16.282 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:57:08.556 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:57:58.136 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:58:14.476 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 19:59:29.400 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:01:21.282 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:02:53.370 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:03:56.283 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:06:21.283 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:07:30.636 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:07:36.984 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:08:16.039 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:08:33.377 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:08:40.208 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:10:26.562 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:10:54.477 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:11:06.284 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:11:16.283 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-06 20:11:21.284 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 00:28:02.220 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 00:58:02.836 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:28:06.247 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 01:30:33.172 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:30:40.984 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:31:23.130 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:32:37.484 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:32:43.505 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:33:45.285 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:33:51.410 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:34:46.395 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:35:03.656 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:35:43.347 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:35:49.375 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:37:38.891 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:38:11.515 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:38:47.656 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:39:15.455 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:39:35.842 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:39:42.051 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 01:39:50.995 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 02:27:19.468 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 02:27:50.062 [info] [<unknown>][b5a04a07][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-04-07 02:27:53.384 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 02:28:19.281 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 02:28:37.210 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 02:28:59.092 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:07:46.591 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:07:52.595 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:07:57.597 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 11:09:24.419 [info] [<unknown>][b5a04a07][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-04-07 11:09:24.419 [info] [<unknown>][2d9b03b3][ManagementConnection] New connection established.
+2025-04-07 11:09:24.421 [info] [<unknown>][f6018b8a][ExtensionHostConnection] New connection established.
+2025-04-07 11:09:24.424 [info] [<unknown>][f6018b8a][ExtensionHostConnection] <3867> Launched Extension Host Process.
+2025-04-07 11:09:26.798 [error] CodeExpectedError: Could not find pty 5 on pty host
+    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-04-07 11:09:59.179 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:10:03.684 [info] [<unknown>][2d9b03b3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-07 11:10:03.704 [info] [<unknown>][f6018b8a][ExtensionHostConnection] <3867> Extension Host Process exited with code: 0, signal: null.
+2025-04-07 11:10:08.780 [info] [<unknown>][853a3978][ExtensionHostConnection] New connection established.
+2025-04-07 11:10:08.783 [info] [<unknown>][853a3978][ExtensionHostConnection] <3956> Launched Extension Host Process.
+2025-04-07 11:10:08.784 [info] [<unknown>][e69f8526][ManagementConnection] New connection established.
+2025-04-07 11:13:28.601 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:14:22.802 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:14:45.104 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:15:19.071 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:15:47.318 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:15:59.100 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:16:19.072 [info] [<unknown>][b5a04a07][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-04-07 11:16:33.631 [info] [<unknown>][55684ea4][ExtensionHostConnection] <1756> Extension Host Process exited with code: 0, signal: null.
+2025-04-07 11:17:00.586 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:17:22.473 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:20:37.595 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:20:55.105 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:21:28.303 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:21:34.312 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:25:07.114 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:25:13.583 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:27:42.943 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:28:55.015 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:29:51.934 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:30:08.396 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:30:19.589 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:30:25.638 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:30:48.386 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:33:16.108 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:33:27.378 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:35:29.195 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:35:59.789 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:36:32.358 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:36:38.375 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:37:05.104 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:38:20.482 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:39:03.451 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:44:56.142 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:45:14.574 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:45:21.015 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:45:27.024 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:45:38.949 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:45:55.537 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:46:01.561 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:46:07.627 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:46:26.827 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:46:33.239 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:47:00.112 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:47:20.117 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:47:33.751 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:47:44.888 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:48:17.214 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:49:52.765 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:51:05.797 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:52:21.783 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:52:53.954 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:53:11.144 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:53:17.331 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:53:29.267 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 11:54:03.166 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:00:31.196 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:01:04.121 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:01:32.961 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:02:12.481 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:02:51.768 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:03:35.356 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:03:54.859 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:04:07.192 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:04:56.677 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:05:08.566 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:05:24.026 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:05:30.136 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:06:10.114 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:07:15.134 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:07:33.288 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:08:23.735 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:10:04.869 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:10:10.896 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:12:09.142 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:12:15.143 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:13:15.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:13:30.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:14:05.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:14:12.350 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:14:20.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:16:09.016 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:16:14.295 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 12:17:01.579 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:18:10.143 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:18:58.530 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:19:04.998 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:20:17.502 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:20:25.140 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 12:20:35.139 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:22:15.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:23:06.074 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:25:55.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:26:22.108 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:26:35.133 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:27:27.891 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:28:51.994 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:29:43.549 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:29:50.133 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:30:01.849 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:30:45.137 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:31:22.489 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:31:31.135 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 12:58:39.214 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:04:58.684 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:05:52.097 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:08:30.606 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:10:22.700 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:16:09.938 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:16:35.013 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:16:52.578 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:16:57.603 [error] No ptyHost heartbeat after 12 seconds
+2025-04-07 13:19:10.128 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:19:17.132 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:19:35.105 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:20:31.572 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:20:53.461 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:21:17.114 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:23:45.125 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:25:59.451 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:27:22.438 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:27:45.559 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:28:30.125 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:28:42.543 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:29:45.130 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:30:45.690 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:30:58.493 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:31:20.132 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:59:53.515 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 13:59:59.895 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-07 14:00:04.896 [error] No ptyHost heartbeat after 12 seconds

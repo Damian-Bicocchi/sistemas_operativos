@@ -1,0 +1,11 @@
+--- arch/arm64/boot/dts/qcom/qcm6490-shift-otter.dts
++++ arch/arm64/boot/dts/qcom/qcm6490-shift-otter.dts
+@@ -942,8 +942,6 @@ &usb_1_hsphy {
+ 
+ 	qcom,squelch-detector-bp = <(-2090)>;
+ 
+-	orientation-switch;
+-
+ 	status = "okay";
+ };
+ 

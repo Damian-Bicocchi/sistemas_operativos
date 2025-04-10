@@ -1,0 +1,10 @@
+--- include/net/page_pool/types.h
++++ include/net/page_pool/types.h
+@@ -236,7 +236,6 @@ struct page_pool {
+ 	struct {
+ 		struct hlist_node list;
+ 		u64 detach_time;
+-		u32 napi_id;
+ 		u32 id;
+ 	} user;
+ };
