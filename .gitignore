@@ -3,3 +3,4 @@ kernel/linux-6.13.tar.xz
 kernel/btrfs.image
 kernel/btrfs.image
 kernel/linux-6.13.tar.xz
+.vscode-server/data/logs/*/remoteexthost.log
