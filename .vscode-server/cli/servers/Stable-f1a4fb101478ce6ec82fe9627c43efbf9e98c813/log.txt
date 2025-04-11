@@ -5,107 +5,30 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-bfbdb49f-415c-4e40-a5a0-94827a0b6d98
-Extension host agent listening on /tmp/code-bfbdb49f-415c-4e40-a5a0-94827a0b6d98
+Server bound to /tmp/code-2f7d7ad1-dcb6-4eeb-9e1a-3d2b263c422e
+Extension host agent listening on /tmp/code-2f7d7ad1-dcb6-4eeb-9e1a-3d2b263c422e
 
-[18:13:29] 
-
-
+[22:45:21] 
 
 
-[18:13:29] Extension host agent started.
-[18:13:29] [<unknown>][5bf80eb0][ExtensionHostConnection] New connection established.
-[18:13:29] [<unknown>][116d1091][ManagementConnection] New connection established.
-[18:13:29] [<unknown>][5bf80eb0][ExtensionHostConnection] <789> Launched Extension Host Process.
-[18:13:42] No ptyHost heartbeat after 6 seconds
-[18:13:44] [<unknown>][116d1091][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:13:44] [<unknown>][5bf80eb0][ExtensionHostConnection] <789> Extension Host Process exited with code: 0, signal: null.
+
+
+[22:45:21] Extension host agent started.
+[22:45:21] [<unknown>][d391cdf7][ExtensionHostConnection] New connection established.
+[22:45:21] [<unknown>][8aac9b3a][ManagementConnection] New connection established.
+[22:45:21] [<unknown>][d391cdf7][ExtensionHostConnection] <784> Launched Extension Host Process.
+[22:45:46] No ptyHost heartbeat after 6 seconds
+[22:46:01] No ptyHost heartbeat after 6 seconds
+[22:46:21] [<unknown>][8aac9b3a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:46:21] [<unknown>][d391cdf7][ExtensionHostConnection] <784> Extension Host Process exited with code: 0, signal: null.
 Cancelling previous shutdown timeout
-[18:13:44] Cancelling previous shutdown timeout
+[22:46:21] Cancelling previous shutdown timeout
 Last EH closed, waiting before shutting down
-[18:13:44] Last EH closed, waiting before shutting down
-[18:13:52] [<unknown>][ddab9a9d][ManagementConnection] New connection established.
-[18:13:52] [<unknown>][e67bd11e][ExtensionHostConnection] New connection established.
-[18:13:52] [<unknown>][e67bd11e][ExtensionHostConnection] <889> Launched Extension Host Process.
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 3 on pty host
-stack trace: CodeExpectedError: Could not find pty 3 on pty host
-    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
-    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
-    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
-    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
-    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
-    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
-    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
-    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
-    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
-    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
-    at process.emit (node:events:519:28)
-    at emit (node:internal/child_process:951:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[18:13:54] Error [CodeExpectedError]: Could not find pty 3 on pty host
-    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
-    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
-    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
-    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
-    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
-    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
-    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
-    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
-    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
-    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
-    at process.emit (node:events:519:28)
-    at emit (node:internal/child_process:951:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[18:14:00] No ptyHost heartbeat after 6 seconds
-[18:14:06] No ptyHost heartbeat after 6 seconds
-[18:14:11] [<unknown>][ddab9a9d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:14:11] [<unknown>][e67bd11e][ExtensionHostConnection] <889> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[18:14:11] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[18:14:11] Last EH closed, waiting before shutting down
-[18:14:15] [<unknown>][ea9b5c0f][ManagementConnection] New connection established.
-[18:14:15] [<unknown>][f76d42fd][ExtensionHostConnection] New connection established.
-[18:14:15] [<unknown>][f76d42fd][ExtensionHostConnection] <991> Launched Extension Host Process.
-[18:14:25] [<unknown>][ea9b5c0f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:14:25] [<unknown>][f76d42fd][ExtensionHostConnection] <991> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[18:14:25] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[18:14:25] Last EH closed, waiting before shutting down
-[18:14:29] [<unknown>][9f7cd968][ManagementConnection] New connection established.
-[18:14:29] [<unknown>][1058562f][ExtensionHostConnection] New connection established.
-[18:14:29] [<unknown>][1058562f][ExtensionHostConnection] <1080> Launched Extension Host Process.
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty 5 on pty host
-stack trace: CodeExpectedError: Could not find pty 5 on pty host
-    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
-    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
-    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
-    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
-    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
-    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
-    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
-    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
-    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
-    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
-    at process.emit (node:events:519:28)
-    at emit (node:internal/child_process:951:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[18:14:31] Error [CodeExpectedError]: Could not find pty 5 on pty host
-    at I.W (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
-    at I.updateTitle (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
-    at N.s.<computed> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
-    at Object.call (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
-    at Jc.s (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
-    at Jc.q (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
-    at hs.value (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
-    at C.B (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
-    at C.fire (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
-    at process.w (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
-    at process.emit (node:events:519:28)
-    at emit (node:internal/child_process:951:14)
-    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[18:14:38] No ptyHost heartbeat after 6 seconds
-[18:15:48] No ptyHost heartbeat after 6 seconds
-[18:15:56] No ptyHost heartbeat after 6 seconds
-[18:16:25] No ptyHost heartbeat after 6 seconds
+[22:46:21] Last EH closed, waiting before shutting down
+[22:46:26] [<unknown>][3093bbdf][ManagementConnection] New connection established.
+[22:46:26] [<unknown>][acf109f2][ExtensionHostConnection] New connection established.
+[22:46:26] [<unknown>][acf109f2][ExtensionHostConnection] <885> Launched Extension Host Process.
+[22:46:37] No ptyHost heartbeat after 6 seconds
+[22:46:51] No ptyHost heartbeat after 6 seconds
+[22:47:54] No ptyHost heartbeat after 6 seconds
+[22:48:01] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET

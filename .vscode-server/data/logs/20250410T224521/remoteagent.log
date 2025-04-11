@@ -1,0 +1,89 @@
+2025-04-10 22:45:21.783 [info] 
+
+
+
+
+2025-04-10 22:45:21.783 [info] Extension host agent started.
+2025-04-10 22:45:21.795 [info] [<unknown>][d391cdf7][ExtensionHostConnection] New connection established.
+2025-04-10 22:45:21.799 [info] [<unknown>][8aac9b3a][ManagementConnection] New connection established.
+2025-04-10 22:45:21.842 [info] [<unknown>][d391cdf7][ExtensionHostConnection] <784> Launched Extension Host Process.
+2025-04-10 22:45:46.668 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:46:01.753 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:46:21.826 [info] [<unknown>][8aac9b3a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 22:46:21.853 [info] [<unknown>][d391cdf7][ExtensionHostConnection] <784> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 22:46:21.854 [info] Cancelling previous shutdown timeout
+2025-04-10 22:46:21.854 [info] Last EH closed, waiting before shutting down
+2025-04-10 22:46:26.377 [info] [<unknown>][3093bbdf][ManagementConnection] New connection established.
+2025-04-10 22:46:26.381 [info] [<unknown>][acf109f2][ExtensionHostConnection] New connection established.
+2025-04-10 22:46:26.383 [info] [<unknown>][acf109f2][ExtensionHostConnection] <885> Launched Extension Host Process.
+2025-04-10 22:46:37.445 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:46:51.372 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:47:54.352 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:48:01.362 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
+2025-04-10 22:48:28.717 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:48:28.720 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/so/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2025-04-10 22:49:17.483 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:50:29.077 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:50:35.263 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:50:47.475 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:51:21.886 [info] New EH opened, aborting shutdown
+2025-04-10 22:54:41.715 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:54:47.957 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:55:56.452 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:56:17.018 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:56:23.025 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:56:29.245 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:57:47.319 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 22:58:28.544 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:00:22.497 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:00:34.605 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:02:01.150 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:02:44.421 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:03:09.883 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:04:44.953 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:08:13.053 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:08:30.015 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:08:36.452 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:08:53.108 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:08:59.123 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:09:54.061 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:10:28.855 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:10:46.085 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:11:45.649 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:14:41.611 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:15:16.469 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:18:01.475 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:19:13.116 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:19:19.147 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:21:08.772 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:21:20.528 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:23:07.850 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:24:51.494 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:26:46.388 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:28:17.671 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:29:21.151 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:30:14.904 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:30:20.911 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:30:25.920 [error] No ptyHost heartbeat after 12 seconds
+2025-04-10 23:30:38.561 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:31:06.246 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:32:41.198 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:33:01.310 [info] [<unknown>][3093bbdf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 23:33:01.355 [info] [<unknown>][acf109f2][ExtensionHostConnection] <885> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 23:33:01.355 [info] Last EH closed, waiting before shutting down
+2025-04-10 23:33:10.366 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:33:49.770 [info] [<unknown>][9aa6c8e8][ManagementConnection] New connection established.
+2025-04-10 23:33:49.774 [info] [<unknown>][602e5e96][ExtensionHostConnection] New connection established.
+2025-04-10 23:33:49.776 [info] [<unknown>][602e5e96][ExtensionHostConnection] <4563> Launched Extension Host Process.
+2025-04-10 23:33:59.764 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:34:04.765 [error] No ptyHost heartbeat after 12 seconds
+2025-04-10 23:34:13.538 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-10 23:34:17.767 [info] [<unknown>][9aa6c8e8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-04-10 23:34:17.801 [info] [<unknown>][602e5e96][ExtensionHostConnection] <4563> Extension Host Process exited with code: 0, signal: null.
+2025-04-10 23:34:17.802 [info] Cancelling previous shutdown timeout
+2025-04-10 23:34:17.802 [info] Last EH closed, waiting before shutting down
+2025-04-10 23:34:24.784 [info] [<unknown>][4b030b62][ExtensionHostConnection] New connection established.
+2025-04-10 23:34:24.788 [info] [<unknown>][4b030b62][ExtensionHostConnection] <4652> Launched Extension Host Process.
+2025-04-10 23:34:24.789 [info] [<unknown>][b003756a][ManagementConnection] New connection established.
