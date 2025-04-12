@@ -3,6 +3,7 @@ savedcmd_memory.mod.o := gcc -Wp,-MMD,./.memory.mod.o.d -nostdinc -I/home/so/ker
 source_memory.mod.o := memory.mod.c
 
 deps_memory.mod.o := \
+    $(wildcard include/config/MODULE_UNLOAD) \
   /home/so/kernel/linux-6.13/include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   /home/so/kernel/linux-6.13/include/linux/kconfig.h \
@@ -51,7 +52,6 @@ deps_memory.mod.o := \
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/CONSTRUCTORS) \
     $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
