@@ -4,3 +4,17 @@ kernel/btrfs.image
 kernel/btrfs.image
 kernel/linux-6.13.tar.xz
 .vscode-server/data/logs/*/remoteexthost.log
+# VS Code Server
+.vscode-server/
+
+# Logs y temporales
+*.log
+*.pid
+*.json
+
+# Historiales y temporales de usuario de VSCode
+.vscode-server/data/User/History/
+.vscode-server/data/logs/
+
+# Archivo de sudo
+.sudo_as_admin_successful

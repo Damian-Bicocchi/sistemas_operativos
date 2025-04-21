@@ -2,3 +2,6 @@
 	helper = store
 [safe]
 	directory = /home/so
+[user]
+	email = damian.bicocchi211148@alumnos.info.unlp.edu.ar
+	name = Damián
